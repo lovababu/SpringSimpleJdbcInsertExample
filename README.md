@@ -1,5 +1,5 @@
-# SpringSimpleJdbcInsertExample
-Demonstrates the Spring's SimpleJDBCInsert class feature with Derby InMemory DB.
+# Springs SimpleJdbcInsert class usage.
+Demonstrates the Spring's SimpleJdbcInsert class usage with Derby InMemory DB.
 
 #Tech Stack.
 Spring JDBC. <br/>
