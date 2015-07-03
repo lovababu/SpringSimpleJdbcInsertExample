@@ -21,8 +21,7 @@ dependencies {
     compile 'org.projectlombok:lombok:1.16.4'
 
 
-    // H2 InMemory DB
-    //compile 'com.h2database:h2:1.4.187'
+    // Derby InMemory DB 
     compile 'org.apache.derby:derby:10.11.1.1'
 
     //test dependencies.
