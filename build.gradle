@@ -2,6 +2,7 @@ group 'com.avol.springjdbc'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'eclipse'
 
 sourceCompatibility = 1.8
 
@@ -20,9 +21,8 @@ dependencies {
     //lombok dependencies.
     compile 'org.projectlombok:lombok:1.16.4'
 
-
-    // Derby InMemory DB 
-    compile 'org.apache.derby:derby:10.11.1.1'
+    // H2 InMemory DB
+    compile 'com.h2database:h2:1.4.187'
 
     //test dependencies.
     testCompile 'org.springframework:spring-test:3.2.10.RELEASE'

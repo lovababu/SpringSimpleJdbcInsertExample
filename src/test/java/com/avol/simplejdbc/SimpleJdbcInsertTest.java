@@ -39,7 +39,7 @@ public class SimpleJdbcInsertTest {
     }
 
     private void print(Country country) {
-        System.out.println(country.getId() + "    |   "  + country.getName() + "     |       " + country.getCode());
+        System.out.println(country.getId() + "    |   "  + country.getName() + "     |    " + country.getCode());
     }
 
 }

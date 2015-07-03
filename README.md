@@ -1,9 +1,9 @@
 # Springs SimpleJdbcInsert class usage.
-Demonstrates the Spring's SimpleJdbcInsert class usage with Derby InMemory DB.
+Demonstrates the Spring's SimpleJdbcInsert class usage with H2 InMemory DB.
 
 #Tech Stack.
 Spring JDBC. <br/>
-Apache Derby InMemory DB. <br/>
+H2 InMemory DB. <br/>
 Lombok. <br/>
 Gradle. <br/>
 

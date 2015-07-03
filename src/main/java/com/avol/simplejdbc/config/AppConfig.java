@@ -30,8 +30,8 @@ public class AppConfig {
     @Bean
     public DataSource dataSource() {
         EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
-        builder.setName("DERBY-Test-DB");
-        EmbeddedDatabase db = builder.setType(EmbeddedDatabaseType.DERBY)
+        builder.setName("H2-Test-DB");
+        EmbeddedDatabase db = builder.setType(EmbeddedDatabaseType.H2)
                 .addScript("classpath:dbscript/my-schema.sql")
                 .addScript("classpath:dbscript/my-test-data.sql").build();
         System.out.println("Database initialization done.");
